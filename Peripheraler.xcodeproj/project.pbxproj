@@ -14,6 +14,7 @@
 		081F480221F07A3D008D5E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 081F480121F07A3D008D5E5A /* Assets.xcassets */; };
 		081F480521F07A3D008D5E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 081F480321F07A3D008D5E5A /* LaunchScreen.storyboard */; };
 		081F481021F07A3D008D5E5A /* PeripheralerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081F480F21F07A3D008D5E5A /* PeripheralerTests.swift */; };
+		40F767E79CA6A98669B54541 /* PeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F76051253248A4925605A9 /* PeripheralManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		081F480B21F07A3D008D5E5A /* PeripheralerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeripheralerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		081F480F21F07A3D008D5E5A /* PeripheralerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralerTests.swift; sourceTree = "<group>"; };
 		081F481121F07A3D008D5E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F76051253248A4925605A9 /* PeripheralManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				081F480321F07A3D008D5E5A /* LaunchScreen.storyboard */,
 				081F480621F07A3D008D5E5A /* Info.plist */,
 				081F47FE21F07A3A008D5E5A /* Peripheraler.xcdatamodeld */,
+				40F76051253248A4925605A9 /* PeripheralManager.swift */,
 			);
 			path = Peripheraler;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				081F480021F07A3A008D5E5A /* Peripheraler.xcdatamodeld in Sources */,
 				081F47FA21F07A3A008D5E5A /* ViewController.swift in Sources */,
 				081F47F821F07A3A008D5E5A /* AppDelegate.swift in Sources */,
+				40F767E79CA6A98669B54541 /* PeripheralManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

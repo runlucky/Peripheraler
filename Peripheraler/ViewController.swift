@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import CoreBluetooth
 
-class ViewController: UIViewController {
+internal class ViewController: UIViewController {
+    private var peripheralManager: CBPeripheralManager!
 
-    override func viewDidLoad() {
+    internal override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        peripheralManager = CBPeripheralManager(delegate: PeripheralManager(), queue: nil, options: nil)
+
+        let advertise: Dictionary = [CBAdvertisementDataLocalNameKey: "iPhoneX"]
+        peripheralManager.startAdvertising(advertise)
+
     }
 
 
