@@ -15,6 +15,7 @@
 		081F480521F07A3D008D5E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 081F480321F07A3D008D5E5A /* LaunchScreen.storyboard */; };
 		081F481021F07A3D008D5E5A /* PeripheralerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081F480F21F07A3D008D5E5A /* PeripheralerTests.swift */; };
 		40F767E79CA6A98669B54541 /* PeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F76051253248A4925605A9 /* PeripheralManager.swift */; };
+		40F76D8F23DED9A052D03973 /* CBManagerStateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F76FD630D0F293B1F8904F /* CBManagerStateExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		081F480F21F07A3D008D5E5A /* PeripheralerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralerTests.swift; sourceTree = "<group>"; };
 		081F481121F07A3D008D5E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40F76051253248A4925605A9 /* PeripheralManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralManager.swift; sourceTree = "<group>"; };
+		40F76FD630D0F293B1F8904F /* CBManagerStateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBManagerStateExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				081F480621F07A3D008D5E5A /* Info.plist */,
 				081F47FE21F07A3A008D5E5A /* Peripheraler.xcdatamodeld */,
 				40F76051253248A4925605A9 /* PeripheralManager.swift */,
+				40F76BAC29849C57EB19FB72 /* Extensions */,
 			);
 			path = Peripheraler;
 			sourceTree = "<group>";
@@ -100,6 +103,14 @@
 				081F481121F07A3D008D5E5A /* Info.plist */,
 			);
 			path = PeripheralerTests;
+			sourceTree = "<group>";
+		};
+		40F76BAC29849C57EB19FB72 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				40F76FD630D0F293B1F8904F /* CBManagerStateExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +218,7 @@
 				081F47FA21F07A3A008D5E5A /* ViewController.swift in Sources */,
 				081F47F821F07A3A008D5E5A /* AppDelegate.swift in Sources */,
 				40F767E79CA6A98669B54541 /* PeripheralManager.swift in Sources */,
+				40F76D8F23DED9A052D03973 /* CBManagerStateExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
