@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import CoreBluetooth
 
 internal class ViewController: UIViewController {
     private var peripheralManager: PeripheralManager!
