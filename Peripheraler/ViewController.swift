@@ -20,4 +20,4 @@ internal class ViewController: UIViewController {
 }
 
 foo2
-bar
+bar2
