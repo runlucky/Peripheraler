@@ -19,3 +19,4 @@ internal class ViewController: UIViewController {
     }
 }
 
+foo
